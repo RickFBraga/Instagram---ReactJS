@@ -25,6 +25,10 @@ body {
   z-index: 2;
 }
 
+.botaoteste {
+  background: red  
+}
+
 .navbar ion-icon, .navbar img {
   cursor: pointer;
 }

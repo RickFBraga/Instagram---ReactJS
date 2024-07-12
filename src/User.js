@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function User() {
   const [nomeUsuario, setNomeUsuario] = useState("");
-  const [imagemUsuario, setImagemUsuario] = useState("");
+  const [imagemUsuario, setImagemUsuario] = useState("assets/img/perfil-sem-foto.png");
 
   function alterarNomeUsuario() {
     const nomeDigitado = prompt("Digite seu nome: ");
